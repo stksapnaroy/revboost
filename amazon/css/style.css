@@ -1,0 +1,1154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*-----------------------
+FONTS
+------------------------*/
+
+
+@font-face {
+    font-family: 'monument_extendedultrabold';
+    src: url('../font/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+        url('../font/monumentextended-ultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_proregular';
+    src: url('../font/helveticaneueltpromd-webfont.woff2') format('woff2'),
+        url('../font/helveticaneueltpromd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'helvetica_neue_lt_proregular';
+    src: url('../font/helveticaneueltproltcn-webfont.woff2') format('woff2'),
+        url('../font/helveticaneueltproltcn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_proBdIt';
+    src: url('../font/helveticaneueltprohvcno-webfont.woff2') format('woff2'),
+        url('../font/helveticaneueltprohvcno-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_probold';
+    src: url('../font/helveticaneueltprohvcn-webfont.woff2') format('woff2'),
+        url('../font/helveticaneueltprohvcn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-----------------------
+MODAL
+------------------------*/
+
+.fancybox-content {
+    width: 45% !important;
+}
+
+section#lead-form .container {
+    box-shadow: 0px 0px 8px #d3d3d3;
+    border-radius: 10px;
+    padding: 0 50px 40px 50px;
+}
+
+.modal-body textarea {
+    resize: vertical;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a9a9a9;
+    margin-top: 10px;
+}
+#exampleModal .modal-body {
+    position: absolute;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+#myModal .modal-content {
+    position: relative;
+    background-color: #f7f8f9;
+    margin: 3% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 90%;
+    max-width: 720px;
+    min-width: 380px;
+    overflow: scroll;
+}
+
+#lead-form .btn-primary {
+    background: #01be69;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 30px;
+
+}
+
+span.required {
+    color: #dd0000;
+    font-size: 14px;
+}
+
+.errormsg {
+    color: red;
+}
+
+.recaptcha-err {
+    color: red;
+}
+
+.successmsg {
+    color: green;
+
+}
+
+#exampleModal .modal-body {
+    position: absolute;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+    text-align: center;
+}
+
+button.btn-close {
+    float: right;
+    padding: 15px;
+    opacity: 1;
+    background: none !important;
+}
+
+span.red-color {
+    color: red;
+    font-size: 18px;
+}
+
+span.close {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    color: #f76e6e;
+    font-size: 28px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 85px;
+    background: #fff;
+    border-radius: 50%;
+    height: 80px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 6px #a7a7a7;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+section#lead-form {
+    padding: 50px 10px;
+}
+
+#lead-form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px;
+    height: 50px;
+    margin-bottom: 5px;
+    background: transparent;
+}
+
+#lead-form input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+    border-bottom: 2px solid #01be69;
+}
+
+#lead-form select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px;
+    height: 50px;
+    margin-bottom: 5px;
+    background: transparent;
+}
+
+#lead-form select {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.g-recaptcha div {
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    line-height: 17px;
+    text-align: left;
+}
+
+.submit-btn {
+    background: #01be69;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+@media (min-width:300px) and (max-width:490px) {
+    section#lead-form {
+        padding: 60px 10px;
+    }
+
+    section#lead-form .container {
+        box-shadow: 0px 0px 8px #d3d3d3;
+        border-radius: 10px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .submit-btn {
+        background: #01be69;
+        border: none;
+        padding: 15px 30px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .avatar {
+        width: 85px;
+        background: #fff;
+        border-radius: 50%;
+        height: 80px;
+        border: 1px solid #fff;
+        box-shadow: 0px 0px 6px #a7a7a7;
+        margin: 0 auto;
+        margin-top: -40px;
+        margin-bottom: 25px;
+    }
+}
+
+.tk-futura-pt {
+    font-family: "futura-pt", sans-serif;
+}
+
+.tk-owners-xnarrow {
+    font-family: "owners-xnarrow", sans-serif;
+}
+
+.tk-owners-wide {
+    font-family: "owners-wide", sans-serif;
+}
+
+.tk-owners-xwide {
+    font-family: "owners-xwide", sans-serif;
+}
+
+.tk-owners {
+    font-family: "owners", sans-serif;
+}
+
+/*-----------------------
+BANNER + LOGO
+------------------------*/
+
+section#logo-sec {
+    padding: 0;
+    background: #fdf9f1;
+}
+
+.logo img {
+    width: 260px;
+    background: transparent;
+    padding: 10px 20px;
+}
+
+section#banner {
+    padding: 160px 0;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+span.green-col {
+    color: #01be69;
+}
+
+section#banner h1 {
+    font-size: 68px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+section#banner h3 {
+    font-size: 30px;
+    line-height: 43px;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_proregular';
+}
+
+#myModal .modal-dialog {
+    max-width: 730px;
+    margin: 1.75rem auto;
+    height: 90%;
+}
+
+#exampleModal .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    height: 33%;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    overflow: scroll;
+    background: #fff;
+    border-radius: 10px;
+    height: 90%;
+}
+
+form#rBleadForm p {
+    text-align: left;
+}
+
+.get-started a {
+    background: #01be69;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 80px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+}
+
+.get-started a:hover {
+    background: #01be69;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 80px;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0px 0px 15px 0px #01be69;
+}
+
+.get-started a:active,
+.get-started a:focus {
+    color: #fff;
+    background-color: #01be69 !important;
+    border-color: #01be69 !important;
+    box-shadow: 0px 0px 15px 0px #01be69;
+}
+
+.get-started a {
+    transition: ease-in 0.3s;
+}
+
+.get-started {
+    margin-top: 50px;
+}
+
+/*-----------------------
+Section 2 - THE OPPORTUNITY
+------------------------*/
+
+section#sec-2 {
+    padding: 60px 0;
+}
+
+section#sec-2 h2 {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_proregular';
+    margin-bottom: 50px;
+}
+
+section#sec-2 img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+
+section#sec-2 h3 {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-bottom: 0;
+}
+
+
+section#sec-2 p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'helvetica_neue_lt_proregular';
+    margin-bottom: 0;
+}
+
+.green-row {
+    margin: 80px 0;
+}
+
+section#sec-2 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+    margin-bottom: 50px;
+}
+
+.green-box {
+    background: #00be68;
+    padding: 50px 60px;
+    min-height: 190px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.green-box p {
+    font-family: inherit ! IMPORTANT;
+}
+
+
+/*-----------------------
+Section 3 - THE PROBLEM
+------------------------*/
+
+
+section#sec-3 {
+    padding: 60px 0;
+}
+
+section#sec-3 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+    margin-bottom: 50px;
+}
+
+section#sec-3 h2 {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_proregular';
+    margin-bottom: 50px;
+}
+
+section#sec-3 img {
+    width: 65%;
+}
+
+
+/*-----------------------
+Section 4 - WHO WE ARE
+------------------------*/
+
+section#sec-4 {
+    padding: 60px 0;
+}
+
+section#sec-4 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+    margin-bottom: 50px;
+}
+
+.wh-box {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.img-box {
+    width: 25%;
+}
+
+.img-box img {
+    width: 130px;
+}
+
+.text-box {
+    width: 75%;
+}
+
+
+.text-box p {
+    font-size: 22px;
+    margin: 20px 10px;
+}
+
+
+/*-----------------------
+Section 5 - CORE VALUES
+------------------------*/
+
+section#sec-5 {
+    padding: 60px 0;
+}
+
+section#sec-5 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+    margin-bottom: 50px;
+}
+
+section#sec-5 h3 {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-bottom: 0;
+}
+
+section#sec-5 img {
+    width: 170px;
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------
+Section 6 - WHO WE ARE 2
+------------------------*/
+
+section#sec-6 {
+    padding: 60px 0;
+}
+
+section#sec-6 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+    margin-bottom: 50px;
+}
+
+section#sec-6 p {
+    font-size: 26px;
+    margin-top: 35px;
+}
+
+
+/*-----------------------
+Section 7 - WHO WE ARE 2
+------------------------*/
+
+section#sec-7 {
+    padding: 60px 0;
+}
+
+section#sec-7 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+section#sec-7 h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-top: 20px;
+
+}
+
+section#sec-7 p {
+    font-size: 22px;
+}
+
+
+/*-----------------------
+Section 8 - OUR SERVICES
+------------------------*/
+
+section#sec-8 {
+    padding: 60px 0;
+}
+
+section#sec-8 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+section#sec-8 h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-top: 20px;
+
+}
+
+
+.services-box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.services-box .img-box {
+    width: 25%;
+}
+
+.services-box .img-box img {
+    width: 130px;
+}
+
+.services-box .text-box {
+    width: 75%;
+}
+
+
+.services-box .text-box p {
+    font-size: 22px;
+    margin: 20px 10px;
+    font-weight: 600;
+}
+
+
+/*-----------------------
+Section 9 - WHAT WE DO
+------------------------*/
+
+section#sec-9 {
+    padding: 60px 0;
+}
+
+section#sec-9 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+
+section#sec-9 h3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-top: 20px;
+
+}
+
+
+/*-----------------------
+Section 10 - BRAND PAGES
+------------------------*/
+
+section#sec-10 {
+    padding: 60px 0;
+}
+
+section#sec-10 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+.brand-page {
+    width: 50%;
+}
+
+
+/*-----------------------
+Section 11 - CUSTOM DASHBOARD
+------------------------*/
+
+section#sec-11 {
+    padding: 60px 0;
+}
+
+section#sec-11 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+section#sec-11 ul li {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+
+/*-----------------------
+Section 12 - PRODUCT BENEFITS
+------------------------*/
+
+section#sec-12 {
+    padding: 60px 0;
+}
+
+section#sec-12 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+section#sec-12 p {
+    font-size: 22px;
+}
+
+section#sec-12 p b {
+    text-transform: uppercase;
+}
+
+section#sec-12 img {
+    width: 60%;
+}
+
+
+/*-----------------------
+Section 13 - WHY WE'RE DIFFERENT
+------------------------*/
+
+section#sec-13 {
+    padding: 60px 0;
+}
+
+section#sec-13 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+section#sec-13 h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-top: 20px;
+}
+
+section#sec-13 p {
+    font-size: 22px;
+}
+
+section#sec-13 img {
+    width: 150px;
+}
+
+img.img-fluid.dbe {
+    width: 70% !important;
+}
+
+section#sec-13 p {
+    font-size: 22px;
+}
+
+
+/*-----------------------
+Section 14 - HOW WE GET STARTED
+------------------------*/
+
+section#sec-14 {
+    padding: 60px 0;
+}
+
+#exampleModal .modal-dialog {
+    max-width: 480px;
+    margin: 1.75rem auto;
+    height: 39%;
+}
+
+section#sec-14 h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument_extendedultrabold';
+}
+
+#exampleModal .modal-body {
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#exampleModal button.btn-close {
+    position: absolute;
+    right: 0;
+}
+
+section#sec-14 h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-top: 20px;
+}
+
+section#sec-14 img {
+    width: 150px;
+}
+
+section#sec-14 h2 {
+    background: #00be68;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+    font-size: 35px;
+    font-family: 'helvetica_neue_lt_probold';
+    margin-top: -45px;
+}
+
+.green-border {
+    border: 2px solid #00be68;
+    padding: 20px 30px;
+}
+
+
+/*-----------------------
+ FOOTER AREA
+------------------------*/
+
+section#footer {
+    background: #000;
+    padding: 30px 0;
+}
+
+section#footer img {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.mob-img {
+    display: none;
+}
+
+
+/*-----------------------
+RESPONSIVE CSS
+------------------------*/
+
+@media (min-width:300px) and (max-width:480px) {
+.fancybox-content {
+    width: 100% !important;
+}
+section#lead-form .container {
+    box-shadow: 0px 0px 8px #d3d3d3;
+    border-radius: 10px;
+    padding: 0 10px 40px 10px;
+}
+    section#banner h1 {
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    .get-started {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    .get-started a {
+        background: #01be69;
+        color: #fff;
+        text-decoration: none;
+        padding: 15px 80px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    section#sec-2 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+        margin-bottom: 50px;
+    }
+
+    section#banner {
+        padding: 50px 0;
+        background: none;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .mob-img {
+        display: block;
+    }
+
+    section#sec-2 {
+        padding: 15px 0;
+    }
+
+    section#sec-2 h2 {
+        font-size: 34px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'helvetica_neue_lt_proregular';
+        margin-bottom: 50px;
+    }
+
+    .green-box {
+        margin-bottom: 20px;
+    }
+
+    section#sec-3 h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    section#sec-3 h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'helvetica_neue_lt_proregular';
+        margin-bottom: 50px;
+    }
+
+    section#sec-3 img {
+        width: 100%;
+    }
+
+    section#sec-4 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+        margin-bottom: 50px;
+    }
+
+    .text-box p {
+        font-size: 20px;
+        margin: 0px 6px;
+    }
+
+    section#sec-5 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+        margin-bottom: 50px;
+    }
+
+    section#sec-5 h3 {
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'helvetica_neue_lt_probold';
+        margin-bottom: 30px;
+    }
+
+    section#sec-5 img {
+        width: 110px;
+        margin-bottom: 20px;
+    }
+
+    section#sec-6 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+        margin-bottom: 30px;
+    }
+
+    section#sec-6 {
+        padding: 20px 0;
+    }
+
+    section#sec-7 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-8 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-9 {
+        padding: 10px 0;
+    }
+
+    section#sec-8 {
+        padding: 20px 0;
+    }
+
+    section#sec-9 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-10 {
+        padding: 10px 0;
+    }
+
+    section#sec-10 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    .brand-page {
+        width: 100%;
+    }
+
+    section#sec-11 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-12 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-12 img {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text-end {
+        text-align: left !important;
+    }
+
+    .text-start {
+        text-align: right !important;
+    }
+
+    section#sec-11 {
+        padding: 10px 0;
+    }
+
+    section#sec-12 p {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    section#sec-13 {
+        padding: 20px 0;
+    }
+
+    section#sec-13 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-13 img {
+        width: 100px;
+    }
+
+    section#sec-13 .text-start {
+        text-align: center !important;
+    }
+
+    section#sec-14 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'monument_extendedultrabold';
+    }
+
+    section#sec-14 h2 {
+        background: #00be68;
+        width: 300px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 4px;
+        font-size: 28px;
+        font-family: 'helvetica_neue_lt_probold';
+        margin-top: -45px;
+    }
+
+    .green-border {
+        border: 2px solid #00be68;
+        padding: 20px 20px;
+    }
+
+    section#sec-14 img {
+        width: 90px;
+    }
+
+    section#sec-14 h3 {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'helvetica_neue_lt_probold';
+        margin-top: 20px;
+    }
+
+    section#sec-9 h2 {
+        margin-bottom: 30px;
+    }
+
+    .green-row {
+        margin: 40px 0;
+    }
+
+}

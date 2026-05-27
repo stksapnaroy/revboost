@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting...</title>
+    <script>
+      (function() {
+        
+        const target = "https://business.revboost.co";
+        const path = window.location.pathname.replace(/^\/business/, ""); // remove '/business' prefix
+        const query = window.location.search || ""; // includes '?...' if any
+        const hash = window.location.hash || ""; // includes '#...' if any
+        const redirectUrl = target + path + query + hash;
+        
+        window.location.replace(redirectUrl);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a id="redirLink" href="#">business.revboost.co</a>...</p>
+    <script>
+      document.getElementById("redirLink").href = "https://business.revboost.co";
+    </script>
+  </body>
+</html>
